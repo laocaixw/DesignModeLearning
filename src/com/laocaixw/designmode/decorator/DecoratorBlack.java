@@ -8,6 +8,6 @@ public class DecoratorBlack extends CarDecorator {
     @Override
     public void show() {
         super.show();
-        System.out.println("ºÚÉ«ÅçÆá");
+        System.out.println("é»‘è‰²å–·æ¼†");
     }
 }

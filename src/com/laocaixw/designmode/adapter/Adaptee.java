@@ -2,7 +2,7 @@ package com.laocaixw.designmode.adapter;
 
 public class Adaptee {
     public void doSomething() {
-        // 原有的业务逻辑
+        // 鍘熸湁鐨勪笟鍔￠�昏緫
         System.out.println("doSomething");
     }
 }

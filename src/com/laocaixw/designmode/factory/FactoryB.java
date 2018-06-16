@@ -4,7 +4,7 @@ public class FactoryB implements IFactory {
 
     @Override
     public Product createProduct() {
-        // 生产产品B
+        // 鐢熶骇浜у搧B
         return new ProductB();
     }
 

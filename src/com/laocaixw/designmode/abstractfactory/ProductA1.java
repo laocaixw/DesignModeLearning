@@ -4,7 +4,7 @@ public class ProductA1 implements ProductA {
 
     @Override
     public void method() {
-        // 产品A1方法
+        // 浜у搧A1鏂规硶
         System.out.println("A1-method");
     }
 

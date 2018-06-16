@@ -3,25 +3,25 @@ package com.laocaixw.designmode.builder;
 public class ConcreteBuilder2 extends Builder {
     private Product product = new Product();
 
-    // ÉèÖÃ²úÆ·µÄ²»Í¬²¿·Ö
+    // è®¾ç½®äº§å“çš„ä¸åŒéƒ¨åˆ†
     @Override
     public void buildPart1() {
-        product.addPart("Part1-ĞÍºÅA");
+        product.addPart("Part1-å‹å·A");
     }
 
     @Override
     public void buildPart2() {
-        product.addPart("Part2-ĞÍºÅB");
+        product.addPart("Part2-å‹å·B");
     }
 
     @Override
     public void buildPart3() {
-        product.addPart("Part3-ĞÍºÅC");
+        product.addPart("Part3-å‹å·C");
     }
 
     // ...
 
-    // ½¨Ôì²úÆ·
+    // å»ºé€ äº§å“
     public Product getResult() {
         return product;
     }

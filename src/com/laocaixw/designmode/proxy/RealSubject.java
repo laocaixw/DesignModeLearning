@@ -3,7 +3,7 @@ package com.laocaixw.designmode.proxy;
 public class RealSubject implements Subject {
     @Override
     public void request() {
-        // ÒµÎñÂß¼­²Ù×÷...
+        // ä¸šåŠ¡é€»è¾‘æ“ä½œ...
         System.out.println("RealSubject-request");
     }
 }

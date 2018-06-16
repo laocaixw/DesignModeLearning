@@ -1,6 +1,6 @@
 package com.laocaixw.designmode.proxy;
 
 public interface Subject {
-    // 请求方法
+    // 璇锋眰鏂规硶
     public void request();
 }

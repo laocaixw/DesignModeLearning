@@ -1,5 +1,5 @@
 package com.laocaixw.designmode.factory;
 
-public interface Product { // 产品接口
+public interface Product { // 浜у搧鎺ュ彛
     public void method();
 }

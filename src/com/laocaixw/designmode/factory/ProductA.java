@@ -1,10 +1,10 @@
 package com.laocaixw.designmode.factory;
 
-public class ProductA implements Product { // 具体产品类A
+public class ProductA implements Product { // 鍏蜂綋浜у搧绫籄
 
     @Override
     public void method() {
-        // 产品A方法
+        // 浜у搧A鏂规硶
         System.out.println("A-method");
     }
 

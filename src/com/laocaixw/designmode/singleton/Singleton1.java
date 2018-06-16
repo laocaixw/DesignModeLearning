@@ -1,13 +1,13 @@
 package com.laocaixw.designmode.singleton;
 
 public class Singleton1 {
-    private static Singleton1 mInstance = new Singleton1(); // ¶öººÊ½
+    private static Singleton1 mInstance = new Singleton1(); // é¥¿æ±‰å¼
 
-    // ¹¹Ôì·½·¨Ë½ÓĞ»¯£¬±£Ö¤Íâ½çÎŞ·¨Ö±½ÓÊµÀı»¯
+    // æ„é€ æ–¹æ³•ç§æœ‰åŒ–ï¼Œä¿è¯å¤–ç•Œæ— æ³•ç›´æ¥å®ä¾‹åŒ–
     private Singleton1() {
     }
 
-    // Í¨¹ı¸Ã·½·¨»ñµÃÊµÀı¶ÔÏó
+    // é€šè¿‡è¯¥æ–¹æ³•è·å¾—å®ä¾‹å¯¹è±¡
     public static Singleton1 getInstance() {
         return mInstance;
     }

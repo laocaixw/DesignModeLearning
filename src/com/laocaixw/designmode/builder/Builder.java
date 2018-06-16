@@ -1,7 +1,7 @@
 package com.laocaixw.designmode.builder;
 
 public abstract class Builder {
-    // ÉèÖÃ²úÆ·µÄ²»Í¬²¿·Ö
+    // è®¾ç½®äº§å“çš„ä¸åŒéƒ¨åˆ†
     public abstract void buildPart1();
 
     public abstract void buildPart2();
@@ -10,7 +10,7 @@ public abstract class Builder {
 
     // ...
 
-    // ½¨Ôì²úÆ·
+    // å»ºé€ äº§å“
     public abstract Product getResult();
 
 }

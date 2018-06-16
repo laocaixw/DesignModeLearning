@@ -3,7 +3,7 @@ package com.laocaixw.designmode.builder;
 public class ConcreteBuilder extends Builder {
     private Product product = new Product();
 
-    // ÉèÖÃ²úÆ·µÄ²»Í¬²¿·Ö
+    // è®¾ç½®äº§å“çš„ä¸åŒéƒ¨åˆ†
     @Override
     public void buildPart1() {
         product.addPart("Part1");
@@ -21,7 +21,7 @@ public class ConcreteBuilder extends Builder {
 
     // ...
 
-    // ½¨Ôì²úÆ·
+    // å»ºé€ äº§å“
     public Product getResult() {
         return product;
     }

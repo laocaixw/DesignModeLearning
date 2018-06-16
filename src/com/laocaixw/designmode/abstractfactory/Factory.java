@@ -1,7 +1,7 @@
 package com.laocaixw.designmode.abstractfactory;
 
 public interface Factory {
-    public ProductA createProductA(); // Éú²úÆ·ÅÆAµÄ²úÆ·
+    public ProductA createProductA(); // ç”Ÿäº§å“ç‰ŒAçš„äº§å“
 
-    public ProductB createProductB(); // Éú²úÆ·ÅÆBµÄ²úÆ·
+    public ProductB createProductB(); // ç”Ÿäº§å“ç‰ŒBçš„äº§å“
 }

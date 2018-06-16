@@ -8,6 +8,6 @@ public class DecoratorGPS extends CarDecorator {
     @Override
     public void show() {
         super.show();
-        System.out.println("°²×°GPS");
+        System.out.println("å®‰è£…GPS");
     }
 }

@@ -1,12 +1,12 @@
 package com.laocaixw.designmode.singleton;
 
 public class Singleton2 {
-    private static Singleton2 mInstance = null; // ÀÁººÊ½
+    private static Singleton2 mInstance = null; // æ‡’æ±‰å¼
 
     private Singleton2() {
     }
 
-    // ·½·¨Í¬²½£¬È·±£¶àÏß³Ì»·¾³ÏÂÖ»´´½¨Ò»¸öÊµÀı
+    // æ–¹æ³•åŒæ­¥ï¼Œç¡®ä¿å¤šçº¿ç¨‹ç¯å¢ƒä¸‹åªåˆ›å»ºä¸€ä¸ªå®ä¾‹
     synchronized public static Singleton2 getInstance() {
         if (mInstance == null) {
             mInstance = new Singleton2();
