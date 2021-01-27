@@ -1,8 +1,6 @@
 package com.laocaixw.designmode.builder;
 
 public class ConcreteBuilder extends Builder {
-    private Product product = new Product();
-
     // 设置产品的不同部分
     @Override
     public void buildPart1() {
@@ -20,10 +18,4 @@ public class ConcreteBuilder extends Builder {
     }
 
     // ...
-
-    // 建造产品
-    public Product getResult() {
-        return product;
-    }
-
 }
